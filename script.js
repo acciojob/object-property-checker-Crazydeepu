@@ -1,6 +1,5 @@
 const sampleObject = { red: "#FF0000", green: "#00FF00", white: "#FFFFFF" };
 
-function hasKey(key) {
   //   write your code here
 	function haskey(key){
     for(let i in sampleObject) {
@@ -10,7 +9,7 @@ function hasKey(key) {
     }
     return false;
 }
-}
+
 
 // Do not change the code below
 const key = prompt("Enter Key.");
